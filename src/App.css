@@ -17,9 +17,11 @@
   border: none;
   filter: brightness(0.95);
   margin-bottom: 0.5rem;
+  background-color: lightblue;
+  transition: filter 100ms;
 }
 .counter:hover {
-  filter: brightness(0.85);
+  filter: brightness(0.8);
 }
 
 #footer {
