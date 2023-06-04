@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import MadeWith from "./MadeWith.jsx";
 import "./App.css";
 
 function App() {
@@ -14,11 +13,7 @@ function App() {
       <button id="counter" onClick={increment}>
         Count is {`${count}`}
       </button>
-      <section>
-        <p className="text">made with</p>
-        <img src={reactLogo} alt="React library logo"></img>
-        <img src={viteLogo} alt="Vite tooling logo"></img>
-      </section>
+      <MadeWith></MadeWith>
       <footer id="footer">by Abdullah Fatota</footer>
     </React.Fragment>
   );

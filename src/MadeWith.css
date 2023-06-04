@@ -1,0 +1,9 @@
+section {
+  margin: 2rem 0;
+}
+.section-header {
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin: 2rem 0;
+}
