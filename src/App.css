@@ -1,0 +1,13 @@
+#header {
+  text-align: center;
+}
+#counter {
+  width: 100%;
+  padding: 1rem 0;
+}
+.text {
+  text-align: center;
+}
+#footer {
+  border-top: thin solid;
+}
