@@ -1,11 +1,27 @@
 #header {
   text-align: center;
 }
-#counter {
+.text {
+  text-align: center;
+}
+#number {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.counter {
   width: 100%;
   padding: 1rem 0;
   cursor: pointer;
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+  filter: brightness(0.95);
+  margin-bottom: 0.5rem;
 }
+.counter:hover {
+  filter: brightness(0.85);
+}
+
 #footer {
   border-top: thin solid;
   text-align: center;
